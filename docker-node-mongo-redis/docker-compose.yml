@@ -11,6 +11,7 @@ services:
       - DB_NAME=${DB_NAME}
       - REDIS_HOST=${REDIS_HOST}
       - REDIS_PORT=${REDIS_PORT}
+      - PORT=${PORT}
     ports:
       - "${PORT}:${PORT}" # phần này ta định nghĩa ở file .env nhé
     restart: unless-stopped
