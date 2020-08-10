@@ -1,6 +1,6 @@
 module.exports = {
   apps: [{
-    name: 'speech-api',
+    name: 'cicd-started',
     script: 'npm',
     args: 'start',
     exec_mode: 'fork', // need explicitly declare mode otherwise it will fallback to cluster mode and cause infinite reload
